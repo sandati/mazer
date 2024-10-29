@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/mazer">
+   <ResourceLink name="env" global="env" type="java.lang.String" />
+</Context>
