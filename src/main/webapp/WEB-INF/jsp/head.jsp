@@ -19,5 +19,6 @@
 
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/app-dark.css">
+    <link rel="stylesheet" href="css/auth.css">
     <link rel="stylesheet" href="css/iconly.css">
 </head>

@@ -13,14 +13,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
  *
  * @author yahaya
  */
-@Controller("/components")
+@Controller
 public class ComponentsController {
     @RequestMapping(value = "/components/accordion", method = RequestMethod.GET)
     public String accordion(ModelMap map) {
         return "accordion";
     }
     
-    @RequestMapping(value = "/alert", method = RequestMethod.GET)
+    @RequestMapping(value = "/components/alert", method = RequestMethod.GET)
     public String alert(ModelMap map) {
         return "alert";
     }

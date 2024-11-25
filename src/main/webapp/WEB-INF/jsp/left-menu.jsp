@@ -60,8 +60,25 @@
                         <span>Dashboard</span>
                     </a>
                 </li>
-            
+                
                 <li class="sidebar-item  has-sub">
+                    <a href="#" class='sidebar-link'>
+                        <i class="bi bi-person-circle"></i>
+                        <span>Account</span>
+                    </a>
+                
+                    <ul class="submenu ">  
+                        <li class="submenu-item  ">
+                            <a href="account-profile.html" class="submenu-link">Profile</a>
+                        </li>
+
+                        <li class="submenu-item  ">
+                            <a href="account-security.html" class="submenu-link">Security</a>
+                        </li>
+                    </ul>
+                </li>
+            
+                <!--<li class="sidebar-item  has-sub">
                     <a href="#" class='sidebar-link'>
                         <i class="bi bi-stack"></i>
                         <span>Components</span>
@@ -576,8 +593,7 @@
 
             </li>
             
-            <li
-                class="sidebar-item  has-sub">
+            <li class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
                     <i class="bi bi-person-circle"></i>
                     <span>Account</span>
@@ -587,21 +603,16 @@
                     
                     <li class="submenu-item  ">
                         <a href="account-profile.html" class="submenu-link">Profile</a>
-                        
                     </li>
                     
                     <li class="submenu-item  ">
                         <a href="account-security.html" class="submenu-link">Security</a>
-                        
                     </li>
                     
                 </ul>
-                
-
             </li>
             
-            <li
-                class="sidebar-item  has-sub">
+            <li class="sidebar-item  has-sub">
                 <a href="#" class='sidebar-link'>
                     <i class="bi bi-person-badge-fill"></i>
                     <span>Authentication</span>
@@ -610,23 +621,18 @@
                 <ul class="submenu ">
                     
                     <li class="submenu-item  ">
-                        <a href="auth-login.html" class="submenu-link">Login</a>
-                        
+                        <a href="auth-login.html" class="submenu-link">Login</a>        
                     </li>
                     
                     <li class="submenu-item  ">
-                        <a href="auth-register.html" class="submenu-link">Register</a>
-                        
+                        <a href="auth-register.html" class="submenu-link">Register</a> 
                     </li>
                     
                     <li class="submenu-item  ">
                         <a href="auth-forgot-password.html" class="submenu-link">Forgot Password</a>
-                        
                     </li>
                     
                 </ul>
-                
-
             </li>
             
             <li
@@ -688,7 +694,7 @@
                 </a>
                 
 
-            </li>
+            </li>-->
             
         </ul>
     </div>
