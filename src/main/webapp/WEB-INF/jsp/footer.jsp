@@ -6,12 +6,16 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+<footer>
+    <div class="footer clearfix mb-0 text-muted">
+        <div class="float-start">
+            <p>2023 &copy; Mazer</p>
+        </div>
+        <div class="float-end">
+            <p>Crafted with <span class="text-danger"><i class="bi bi-heart-fill icon-mid"></i></span>
+                by <a href="https://saugi.me">Saugi</a></p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/app.js"></script>

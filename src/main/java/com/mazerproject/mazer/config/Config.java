@@ -44,10 +44,11 @@ public class Config extends WebMvcConfigurerAdapter {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/css/**").addResourceLocations("/WEB-INF/resources/css/");
-        registry.addResourceHandler("/img/**").addResourceLocations("/WEB-INF/resources/images/");
+        registry.addResourceHandler("/images/**").addResourceLocations("/WEB-INF/resources/images/");
         registry.addResourceHandler("/fonts/**").addResourceLocations("/WEB-INF/resources/fonts/");
         registry.addResourceHandler("/assets/**").addResourceLocations("/WEB-INF/resources/assets/");
         registry.addResourceHandler("/js/**").addResourceLocations("/WEB-INF/resources/js/");
+        registry.addResourceHandler("/svg/**").addResourceLocations("/WEB-INF/resources/svg/");
         registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
     }
 
