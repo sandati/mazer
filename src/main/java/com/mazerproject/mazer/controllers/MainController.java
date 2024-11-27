@@ -16,7 +16,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class MainController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String index(ModelMap map) {
+    public String home(ModelMap map) {
+        return "home";
+    }
+    
+    @RequestMapping(value = "/dashboard", method = RequestMethod.GET)
+    public String dashbord(ModelMap map) {
         return "dashboard";
     }
 }
